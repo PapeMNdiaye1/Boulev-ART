@@ -242,6 +242,7 @@ html {
     background-image: url('./Images/PNG/favicon.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    display: none;
 
     &:hover {
         transform: scale(1.1);

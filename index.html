@@ -7,10 +7,10 @@
     <link rel="icon" href="./Style/Images/PNG/favicon.png" />
     <meta name="description" content="Villa Sarr" />
     <meta name="Keywords"
-        content=" Visualisation architecturale, ArchViz, Architectur, Visualisation 3D, 3D sénégal, Architectur sénégal," />
+        content=" Visualisation architecturale, Architectur, Visualisation 3D, 3D sénégal, Architectur sénégal," />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Villa Sarr
+        Boulev'ART de la République
     </title>
 
     <script rel=preload src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
@@ -29,7 +29,7 @@
 <body>
 
     <div class="the_description">
-        Villa Sarr
+        Boulev'ART de la République
     </div>
     <div class='hover_loader_container'>
         <div class='hover_loader'>
@@ -57,6 +57,9 @@
             <img id="Scene-0" src="./Style/Images/Scene-0.jpg">
             <img id="Scene-1" src="./Style/Images/Scene-1.jpg">
             <img id="Scene-2" src="./Style/Images/Scene-2.jpg">
+            <img id="Scene-3" src="./Style/Images/Scene-3.jpg">
+            <img id="Scene-4" src="./Style/Images/Scene-4.jpg">
+            <img id="Scene-5" src="./Style/Images/Scene-5.jpg">
         </a-assets>
 
         <a-entity laser-controls="hand: left"
@@ -146,8 +149,6 @@
              material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-4  ; Group_to_activate: Group-4 ; The_rotation: 0">
             </a-plane>
-       
-        
 
 
         </a-entity>
@@ -168,6 +169,28 @@
             rotation="-71.4524207151747 8.279813097435527 70.35921724206509"
              material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-5  ; Group_to_activate: Group-5 ; The_rotation: 0">
+            </a-plane>
+       
+
+        </a-entity>
+      
+        <!-- Group-5 -->
+        <a-entity scale="0 0 0" class="groups" id="Group-5" visible="false">
+
+          
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+            position="-0.08029 -1.16781 8.48528" 
+            rotation="-68.76467569821601 178.6339165769124 -88.66464583869977"
+               material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-4  ; Group_to_activate: Group-4 ; The_rotation: 0">
+            </a-plane>
+
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+            position="-0.05818 -0.42576 -7.0872"
+            rotation="-71.4524207151747 8.279813097435527 70.35921724206509"
+             material="src: #Arrow-1; transparent:true"
+                the_dote="Name_of_dote: Dote-6  ; Group_to_activate: Group-6 ; The_rotation: 0">
             </a-plane>
        
 
@@ -245,129 +268,7 @@
                             case 'Dote-6':
                                 the_sky.setAttribute('src', '#Scene-6')
                                 break;
-                            case 'Dote-7':
-                                the_sky.setAttribute('src', '#Scene-7')
-                                break;
-                            case 'Dote-8':
-                                the_sky.setAttribute('src', '#Scene-8')
-                                break;
-                            case 'Dote-9':
-                                the_sky.setAttribute('src', '#Scene-9')
-                                break;
-                            case 'Dote-10':
-                                the_sky.setAttribute('src', '#Scene-10')
-                                break;
-                            case 'Dote-11':
-                                the_sky.setAttribute('src', '#Scene-11')
-                                break;
-                            case 'Dote-12':
-                                the_sky.setAttribute('src', '#Scene-12')
-                                break;
-                            case 'Dote-13':
-                                the_sky.setAttribute('src', '#Scene-13')
-                                break;
-                            case 'Dote-14':
-                                the_sky.setAttribute('src', '#Scene-14')
-                                break;
-                            case 'Dote-15':
-                                the_sky.setAttribute('src', '#Scene-15')
-                                break;
-                            case 'Dote-16':
-                                the_sky.setAttribute('src', '#Scene-16')
-                                break;
-                            case 'Dote-17':
-                                the_sky.setAttribute('src', '#Scene-17')
-                                break;
-                            case 'Dote-18':
-                                the_sky.setAttribute('src', '#Scene-18')
-                                break;
-                            case 'Dote-19':
-                                the_sky.setAttribute('src', '#Scene-19')
-                                break;
-                            case 'Dote-20':
-                                the_sky.setAttribute('src', '#Scene-20')
-                                break;
-                            case 'Dote-21':
-                                the_sky.setAttribute('src', '#Scene-21')
-                                break;
-                            case 'Dote-22':
-                                the_sky.setAttribute('src', '#Scene-22')
-                                break;
-                            case 'Dote-23':
-                                the_sky.setAttribute('src', '#Scene-23')
-                                break;
-                            case 'Dote-24':
-                                the_sky.setAttribute('src', '#Scene-24')
-                                break;
-                            case 'Dote-25':
-                                the_sky.setAttribute('src', '#Scene-25')
-                                break;
-                            case 'Dote-26':
-                                the_sky.setAttribute('src', '#Scene-26')
-                                break;
-                            case 'Dote-27':
-                                the_sky.setAttribute('src', '#Scene-27')
-                                break;
-                            case 'Dote-28':
-                                the_sky.setAttribute('src', '#Scene-28')
-                                break;
-                            case 'Dote-29':
-                                the_sky.setAttribute('src', '#Scene-29')
-                                break;
-                            case 'Dote-30':
-                                the_sky.setAttribute('src', '#Scene-30')
-                                break;
-                            case 'Dote-31':
-                                the_sky.setAttribute('src', '#Scene-31')
-                                break;
-                            case 'Dote-32':
-                                the_sky.setAttribute('src', '#Scene-32')
-                                break;
-                            case 'Dote-33':
-                                the_sky.setAttribute('src', '#Scene-33')
-                                break;
-                            case 'Dote-34':
-                                the_sky.setAttribute('src', '#Scene-34')
-                                break;
-                            case 'Dote-35':
-                                the_sky.setAttribute('src', '#Scene-35')
-                                break;
-                            case 'Dote-36':
-                                the_sky.setAttribute('src', '#Scene-36')
-                                break;
-                            case 'Dote-37':
-                                the_sky.setAttribute('src', '#Scene-37')
-                                break;
-                            case 'Dote-38':
-                                the_sky.setAttribute('src', '#Scene-38')
-                                break;
-                            case 'Dote-39':
-                                the_sky.setAttribute('src', '#Scene-39')
-                                break;
-                            case 'Dote-40':
-                                the_sky.setAttribute('src', '#Scene-40')
-                                break;
-                            case 'Dote-41':
-                                the_sky.setAttribute('src', '#Scene-41')
-                                break;
-                            case 'Dote-42':
-                                the_sky.setAttribute('src', '#Scene-42')
-                                break;
-                            case 'Dote-43':
-                                the_sky.setAttribute('src', '#Scene-43')
-                                break;
-                            case 'Dote-44':
-                                the_sky.setAttribute('src', '#Scene-44')
-                                break;
-                            case 'Dote-45':
-                                the_sky.setAttribute('src', '#Scene-45')
-                                break;
-                            case 'Dote-46':
-                                the_sky.setAttribute('src', '#Scene-46')
-                                break;
-                            case 'Dote-47':
-                                the_sky.setAttribute('src', '#Scene-47')
-                                break;
+                         
                             default:
                                 break;
                         }
